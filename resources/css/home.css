@@ -1,0 +1,223 @@
+:root{
+    --color-primary:#37517e;
+}
+
+/* Testimonial section start */
+
+.testimonial-bg{
+    border: 10px solid #37517e;
+    padding: 80px 70px;
+    text-align: center;
+    position: relative;
+}
+.testimonial-bg:before{
+    content: "\f10d";
+    font-family: "fontawesome";
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    background: #fff;
+    text-align: center;
+    font-size: 50px;
+    color: #3c414c;
+    position: absolute;
+    top: -40px;
+    left: 2%;
+}
+.testimonial{
+    padding: 0 15px;
+}
+.testimonial .description{
+    font-size: 18px;
+    font-weight:400;
+    font-style: normal;
+    color: #6c6c6c;
+    line-height: 30px;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+    position: relative;
+}
+@media screen and (max-width:576px){
+    .testimonial .description{
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+}
+.testimonial .description:before{
+    content: "";
+    width: 75%;
+    border-top: 1px solid #ddd;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.testimonial .description:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    transform: translateX(-50%) rotate(45deg);
+}
+.testimonial .pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 25px auto;
+    overflow: hidden;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .title{
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 700;
+    color: #848484;
+    text-transform: capitalize;
+    margin: 0;
+}
+@media screen and (max-width:576px){
+    .testimonial .title{
+        font-size: 16px;
+    }
+}
+.testimonial .post{
+    display: inline-block;
+    font-size: 20px;
+    color: #848484;
+}
+.owl-theme .owl-controls{
+    background: #fff;
+    margin-top: 10px;
+    position: absolute;
+    bottom: -34%;
+    right: 0;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #34363b;
+    opacity: 1;
+    padding: 0;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f104";
+    font-family: "fontawesome";
+    font-size: 23px;
+    font-weight: 700;
+    color: #fff;
+}
+.owl-next:before{
+    content:"\f105";
+}
+@media only screen and (max-width:767px){
+    .testimonial-bg{ padding: 50px 40px; }
+    .owl-theme .owl-controls{ bottom: -22%; }
+}
+@media only screen and (max-width:480px){
+    .testimonial-bg:before{
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 40px;
+    }
+    .testimonial-bg{ padding: 30px 10px; }
+    .owl-theme .owl-controls{ bottom: -15%; }
+}
+@media only screen and (max-width:360px){
+    .testimonial .title,
+    .testimonial .post{
+        font-size: 16px;
+    }
+    .owl-theme .owl-controls{ bottom: -12%; }
+}
+
+/* Service section start */
+.service-card {
+    border:1px solid #ced6e3;
+    cursor:pointer;
+    border-radius: 10px;
+    background: rgba(134, 164, 195, 0.6);
+    background-color: #fafdff!important;
+}
+.service-card:hover{
+    transition: 0.3s ease;
+    border:1px solid #9fb7db;
+}
+.service-card lord-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.service-title {
+    font-weight: bold;
+    color: black;
+}
+
+.service-description {
+    min-height: 150px;
+    color:grey;
+}
+@media screen and (max-width:576px){
+    .service-title{
+    font-size: 17px;
+    }
+    .service-description {
+        min-height: 100px;
+    }
+}
+.wcu-card {
+    /* border: none; */
+    border-radius: 10px;
+    overflow: hidden;
+    /* box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.3); */
+}
+
+.wcu-content {
+    padding: 20px;
+    min-height: 145px;
+}
+
+.wcu-title {
+    font-weight: bold;
+    text-transform: capitalize;
+    /* font-size: 1em; */
+}
+/* .wcu-para {
+    font-size: 16px;
+} */
+@media screen and (max-width:576px){
+    .wcu-title{
+        font-size: 16px;
+    }
+    .wcu-para {
+        font-size: 14px;
+    }
+}
+.wcu-img {
+    padding: 50px;
+    width: 100%;
+}
+
+.wcu-img-box {
+    transition: 0.3s;
+    overflow: hidden;
+    height: 200px;
+}
+
+.wcu-img-box:hover {
+    transform: scale(1.1);
+}

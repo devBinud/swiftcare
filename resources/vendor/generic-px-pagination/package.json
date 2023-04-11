@@ -1,0 +1,27 @@
+{
+  "name": "px-jquery-pagination",
+  "version": "1.0.5",
+  "description": "data page pagination (jquery)",
+  "main": "px-pagination.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiriAykut/px-jquery-pagination.git"
+  },
+  "keywords": [
+    "px",
+    "pagination",
+    "page",
+    "data page",
+    "paginate",
+    "jquery"
+  ],
+  "author": "Piri AYKUT <piriaykut@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PiriAykut/px-jquery-pagination/issues"
+  },
+  "homepage": "https://github.com/PiriAykut/px-jquery-pagination#readme"
+}

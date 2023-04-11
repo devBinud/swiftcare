@@ -1,0 +1,131 @@
+#hero {
+  height: auto;
+}
+.banner{
+    background: url(../img/hero-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.content__wrapper{
+    padding: 50px 0;
+    margin-top: 83px;
+}
+.form__wrapper{
+    border-radius: 1rem;
+}
+/* Banner layer paragraph start */
+.layer__para__first{
+  color:#4a689b;
+  font-size:15px;
+}
+.layer__para__second{
+ color: #37517e;
+}
+.layer__para__last{
+ color:#4a689b;
+ font-size: 18px;
+}
+
+.gradient-bg {
+    background: linear-gradient(90deg, #47b2e4 0%, #3498db 100%);
+  }
+  
+  .form-control:focus {
+    border-color: #47b2e4;
+    box-shadow: none;
+  }
+  
+  .form-control-lg {
+    font-size: 1.2rem;
+  }
+  
+  .form-control-lg:focus {
+    border-color: #47b2e4;
+    box-shadow: none;
+  }
+  
+  .rounded {
+    border-radius: 10px !important;
+  }
+  
+  .rounded-pill {
+    border-radius: 50px !important;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .btn-light {
+    background-color: #ffffff;
+    color: #47b2e4;
+    border-color: #ffffff;
+  }
+  
+  .btn-light:hover {
+    background-color: #47b2e4;
+    color: #ffffff;
+    border-color: #47b2e4;
+  }
+  
+  .btn-light:focus,
+  .btn-light.focus {
+    background-color: #47b2e4;
+    color: #ffffff;
+    border-color: #47b2e4;
+  }
+  
+  .btn-light:not(:disabled):not(.disabled):active,
+  .btn-light:not(:disabled):not(.disabled).active,
+  .show > .btn-light.dropdown-toggle {
+    background-color: #47b2e4;
+    color: #ffffff;
+    border-color: #47b2e4;
+  }
+  
+  .btn-light:disabled,
+  .btn-light.disabled {
+    background-color: #ffffff;
+    color: #47b2e4;
+    border-color: #ffffff;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .rounded-left {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+  }
+  .location__button{
+    padding:10px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: #c8e9ff;
+  }
+  @media screen and (max-width:576px){
+    .content__wrapper{
+      padding: 10px 0;
+  }
+    .layer__para__second{
+      color: #37517e;
+      font-size: 18px;
+    }
+    .layer__para__last{
+      color:#4a689b;
+      font-size: 14px;
+    }
+    .layer__para__first{
+      color:#4a689b;
+      font-size: 13px;
+    }
+   }
